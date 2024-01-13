@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Marcus Hugo frontend developer portfolio" />
+    <!-- Fathom - beautiful, simple website analytics -->
+    <script src="https://cdn.usefathom.com/script.js" data-site="GKSRZPSZ" defer></script>
+    <!-- / Fathom -->
+    <link rel="stylesheet" href="dist/styles.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet" />
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <title>Marcus Hugo | Frontend Developer</title>
+  </head>
+
+  <body>
+    <!-- skip link -->
+    <div tabindex="1" id="skip">
+      <a class="link" href="#main-content">Skip to main content</a>
+    </div>
+
+    <!-- Header / Navagation -->
+    <header class="header">
+      <div class="header__logo">
+        <a class="link" href="index.html">Marcus Hugo</a>
+      </div>
+      <div class="header__menu-wrapper">
+        <nav role="navigation" class="nav">
+          <ul class="nav-ul">
+            <li class="nav-ul__li">
+              <a class="link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-ul__li">
+              <a class="link" href="#about">About</a>
+            </li>
+            <li class="nav-ul__li">
+              <a class="link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="toggle-switch-wrapper">
+          <i aria-hidden="true" class="bi bi-sun"></i>
+          <label class="toggle-switch" for="theme-toggle">
+            <input type="checkbox" class="toggle-switch__input" id="theme-toggle" title="Toggles light and dark" role="switch" aria-checked="false" aria-live="polite" />
+            <span class="toggle-switch__slider"></span>
+          </label>
+          <i aria-hidden="true" class="bi bi-moon-stars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+      <!-- Hero Section -->
+      <section class="hero-section" id="hero">
+        <div class="hero-wrapper">
+          <div class="hero__img-wrapper">
+            <!-- <span class="hero_wavy-hand">&#128075;</span> -->
+          </div>
+          <div class="hero-text-wrapper">
+            <h1 class="hero__title">Marcus Hugo</h1>
+            <h2 class="hero__subtitle"><span class="">Frontend Developer</span></h2>
+            <ul class="skills-ul">
+              <li class="skills-ul__li">
+                <p>HTML</p>
+              </li>
+              <li class="skills-ul__li">
+                <p>CSS</p>
+              </li>
+              <li class="skills-ul__li">
+                <p>JavaScript</p>
+              </li>
+              <li class="skills-ul__li">
+                <p>Sass</p>
+              </li>
+              <li class="skills-ul__li">
+                <p>React</p>
+              </li>
+              <li class="skills-ul__li">
+                <p>Wordpress</p>
+              </li>
+            </ul>
+
+            <p class="hero__text">I build responsive, user-friendly websites and web applications, with a strong understanding of web development best practices, including accessibility.</p>
+            <a class="hero__btn hero-link" href="#projects">See my Projects</a>
+          </div>
+          <div class="circle">
+            <!-- <img class="hero__image" src="/images/new-selfie-23.jpeg" alt="" /> -->
+          </div>
+        </div>
+
+        <!-- <ul class="social-links-wrapper-side">
+          <li>
+            <a href="https://www.linkedin.com/in/marcus-hugo-27823b32" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i aria-hidden="true" class="bi bi-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/marcus-hugo" target="_blank" rel="noopener noreferrer" aria-label="Github"><i aria-hidden="true" class="bi bi-github"></i></a>
+          </li>
+        </ul> -->
+
+        <!-- <a href="#main-content" class="link-to-top">Back to top →</a> -->
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2 class="site__title">My Projects</h2>
+
+        <div class="projects-wrapper">
+          <!-- Project -->
+          <article class="project">
+            <div>
+              <div class="project__img-wrapper">
+                <img width="1280" height="720" class="screenshot" src="images/markdown-notes-app.webp" alt="markdown notes app" />
+              </div>
+              <h3 class="project__title">Markdown Notes</h3>
+              <ul class="project__ul">
+                <li>HTML</li>
+                <li>Sass</li>
+                <li>React</li>
+                <li>Vite</li>
+              </ul>
+              <p class="project__text">Create markdown notes with real time conversion to HTML. You can create, edit, and delete notes. Notes are saved in local storage for easy access. Toggle dark mode on and off for viewing preference.</p>
+            </div>
+
+            <div class="project__links">
+              <a class="link" href="https://awesome-react-markdown-notes.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right"></i>Live</a>
+              <a class="link" href="https://github.com/marcus-hugo/markdown-notes-app" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i>Github</a>
+            </div>
+          </article>
+
+          <!-- Project -->
+          <article class="project">
+            <div>
+              <div class="project__img-wrapper">
+                <img width="1280" height="720" class="screenshot" src="images/todo-app.png" alt="todo app" />
+              </div>
+              <h3 class="project__title">Awesome Todos</h3>
+              <ul class="project__ul">
+                <li>HTML</li>
+                <li>Sass</li>
+                <li>React</li>
+                <li>Vite</li>
+              </ul>
+              <p class="project__text">Toggle light and dark mode on or off. Add todos that are saved in local storage. Full CRUD operations. Todos can be checked with a visual strike through. View todos by all, active, or completed. Drag and drop to reorder todos!</p>
+            </div>
+
+            <div class="project__links">
+              <a class="link" href="https://beautiful-griffin-02069e.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right"></i>Live</a>
+              <a class="link" href="https://github.com/marcus-hugo/todo-app-react" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i>Github</a>
+            </div>
+          </article>
+
+          <!-- Project -->
+          <article class="project">
+            <div>
+              <div class="project__img-wrapper">
+                <img width="1280" height="720" class="screenshot" src="images/screenshot-ptah-website.webp" alt="grandkreweofptah.com" />
+              </div>
+              <h3 class="project__title">grandkreweofptah.com</h3>
+              <ul class="project__ul">
+                <li>Wordpress</li>
+                <li>Astra Theme</li>
+                <li>Custom CSS</li>
+              </ul>
+              <p class="project__text">Custom Wordpress website for a non-profit using the Astra Theme. Collaborated with organization members to deliver thoughtful copy, visually appealing assets, and custom CSS. Connected domain and set up hosting as a managed service.</p>
+            </div>
+            <div class="project__links">
+              <a class="link" href="https://grandkreweofptah.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right"></i>Live</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="">
+        <h2 class="site__title">About Me</h2>
+
+        <div class="about-text-wrapper">
+          <!-- <p>
+            <img class="about-text__image" width="640" height="640" src="images/new-selfie-sm.png" alt="Marcus Hugo" />
+          </p> -->
+          <p>I'm passionate about turning pixels into user-friendly digital experiences that prioritize aesthetics, usability, and accessibility. To me, frontend development is a craft—a continuous journey of improvement, refining my skills and processes with each iteration.</p>
+
+          <p></p>
+
+          <p>When I'm not coding, you'll find me playing music, watching movies, or working on my car.</p>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div>
+          <h3 class="site__title">Contact</h3>
+          <p>I'm seeking new opportunities and am open to discussions about full-time roles, freelance projects, or collaborations. If you have a project or position that aligns with my skills and interests, I'd love to hear from you! Feel free to email me at: <a class="link" href="mailto:marcushugo97@gmail.com">marcushugo97@gmail.com</a></p>
+        </div>
+        <address class="address">
+          <!-- Social links -->
+          <ul class="social-links-wrapper">
+            <li>
+              <a class="link" href="https://www.linkedin.com/in/marcus-hugo-27823b32" target="_blank" rel="noopener noreferrer"><i aria-hidden="true" class="bi bi-linkedin"></i>LinkedIn</a>
+            </li>
+            <li>
+              <a class="link" href="https://github.com/marcus-hugo" target="_blank" rel="noopener noreferrer"><i aria-hidden="true" class="bi bi-github"></i>Github</a>
+            </li>
+            <li>
+              <a class="link" href="mailto:marcushugo97@gmail.com"><i aria-hidden="true" class="bi bi-envelope-fill"></i>Email</a>
+            </li>
+          </ul>
+        </address>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <small>© 2022-2023 Marcus Hugo.</small>
+      <small>Crafted with ❤️.</small>
+    </footer>
+    <script src="js/themeToggle.js"></script>
+    <script src="js/scrollActive.js"></script>
+  </body>
+</html>

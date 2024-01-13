@@ -1,0 +1,55 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background: inherit;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 0;
+
+  opacity: 0;
+  animation: fade-in 500ms ease-in 1000ms forwards;
+
+  @media (min-width: 770px) {
+    justify-content: space-between;
+  }
+}
+
+.header__logo {
+  padding: 0 1rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.header__menu-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav {
+  background: var(--menu-bg);
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 0.5rem;
+  gap: 1rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.on-scroll {
+  background: var(--card-bg);
+}
+
+.header-shadow {
+  box-shadow: 0px -2px 5px 1px;
+}
