@@ -26,6 +26,12 @@
 
 .project__img-wrapper {
   border-radius: 5px;
+
+  img {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    object-fit: cover;
+  }
 }
 
 .project__title {
