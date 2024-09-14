@@ -27,10 +27,12 @@ h2,
 h3,
 h4 {
   text-align: center;
+  text-wrap: balance;
 }
 
 p {
   max-width: 65ch;
+  text-wrap: pretty;
 }
 
 h1 {
@@ -64,6 +66,7 @@ p {
     padding-right: 1rem;
   }
 }
+
 /* skip link */
 .link,
 .skip-link {

@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  margin: 0 1rem;
 
   @media (min-width: 770px) {
     flex-direction: row;
@@ -44,6 +45,7 @@
   display: flex;
   justify-content: center;
   gap: 1rem;
+  flex-wrap: wrap;
   font-size: 1.125rem;
   font-weight: 600;
 }
