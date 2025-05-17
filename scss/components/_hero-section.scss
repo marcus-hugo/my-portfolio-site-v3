@@ -54,7 +54,9 @@
 }
 
 .hero__img {
-  margin: 1rem;
+  border-radius: 14px;
+  opacity: 0;
+  animation: fade-in 200ms ease-in 1500ms forwards;
 }
 
 .skills-ul {
